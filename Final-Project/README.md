@@ -26,10 +26,6 @@ We have shortlisted 3 graduate degree programs offered by Northeastern Universit
 - Masters of Science in Data Analytics Engineering (MS DAE)
 - Masters of Science Software Engineering Systems (MS CSYE)
 
-## Strategy:
-
-
-
 ## Implementation
 
 ## Phase 1: Twitter 
@@ -74,10 +70,12 @@ https://github.com/Tripathi-Supriya/Northeastern-Course-Repository/tree/main/Ass
 
 ## Phase 3: Normalization
 
-The data collected in Phase 2 was sufficient but it was not in standard format. The final phase of this project involved normalizing this data. We studied all the tables obtained in the second phase extensively and realised that some tables were violating the some normal forms viz. 1NF, 2NF, and 3NF. We have documeneted all these changes in a separate detailed folder. 
+The data collected in Phase 2 was sufficient but it was not in standard format. Phase 3 of this project involved normalizing this data. We studied all the tables obtained in the second phase extensively and realised that some tables were violating the some normal forms viz. 1NF, 2NF, and 3NF. We have documeneted all these changes in a separate detailed folder. 
 
 #### Please visit the following link to get a detailed view Normalization conducted in Phase 3
 https://github.com/Tripathi-Supriya/Northeastern-Course-Repository/tree/main/Assignment_4
+
+## Phase 4: Final Project
 
 Here's a brief overview of the dataset obtained after the final phase
 
