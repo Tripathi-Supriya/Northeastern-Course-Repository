@@ -451,8 +451,7 @@ Run the below Queries for the complete code Execution by following the given ste
       WHERE b.program_name = 'Information Systems'
       GROUP BY a.program_name;
 
- 
-     ![image](https://user-images.githubusercontent.com/114371417/207750026-56bc013b-8e09-490b-99b9-98caf4c86a28.png)
+ ![image](https://user-images.githubusercontent.com/114371417/207750026-56bc013b-8e09-490b-99b9-98caf4c86a28.png)
 
 
 
@@ -467,7 +466,7 @@ Run the below Queries for the complete code Execution by following the given ste
         ON b.course_id = c.course_id
         WHERE a.specialization_name = 'User Experience Concentration';
 
-      ![image](https://user-images.githubusercontent.com/114371417/207750205-f2bba063-f4f3-4a39-b304-60e46a3fa6e0.png)
+![image](https://user-images.githubusercontent.com/114371417/207750205-f2bba063-f4f3-4a39-b304-60e46a3fa6e0.png)
 
 
 ### 3.List top rated professors at NEU whose rating is above 4. Also mention the courses and its description taught by the professor.
@@ -480,7 +479,7 @@ Run the below Queries for the complete code Execution by following the given ste
         ON b.course_id = c.course_id
         WHERE a.faculty_rating >= 4;
         
-        ![image](https://user-images.githubusercontent.com/114371417/207750289-0e219e1f-8f00-40c1-9d62-b342367f5687.png)
+![image](https://user-images.githubusercontent.com/114371417/207750289-0e219e1f-8f00-40c1-9d62-b342367f5687.png)
 
  
 
@@ -493,7 +492,7 @@ Run the below Queries for the complete code Execution by following the given ste
         ON a.program_name = b.program_name
         GROUP BY a.program_name;
         
-        ![image](https://user-images.githubusercontent.com/114371417/207750348-3ff3e91f-674d-42e4-b8d5-aca2226eddd5.png)
+![image](https://user-images.githubusercontent.com/114371417/207750348-3ff3e91f-674d-42e4-b8d5-aca2226eddd5.png)
 
 
  
@@ -505,7 +504,7 @@ Run the below Queries for the complete code Execution by following the given ste
         NEU_Course_Catalog 
         WHERE program_name = 'Data Analytics Engineering';
 
-       ![image](https://user-images.githubusercontent.com/114371417/207750408-a88f0c7d-7791-4878-84f2-f56b0715a9c3.png)
+![image](https://user-images.githubusercontent.com/114371417/207750408-a88f0c7d-7791-4878-84f2-f56b0715a9c3.png)
 
 
 ### 6. What is the average overall rating given by students to a professor for a given course?
@@ -514,7 +513,7 @@ Run the below Queries for the complete code Execution by following the given ste
         FROM neu_Facultys
         GROUP BY faculty_name;
 
-        ![image](https://user-images.githubusercontent.com/114371417/207750450-c51803ab-ad85-450a-9d26-b29883b22321.png)
+![image](https://user-images.githubusercontent.com/114371417/207750450-c51803ab-ad85-450a-9d26-b29883b22321.png)
 
 
 ### 7. Which courses students need to take to do specialization in Big Data Systems concentration and which resources are available for them?
@@ -531,14 +530,14 @@ Run the below Queries for the complete code Execution by following the given ste
         ON d.software_name = e.software_name
         WHERE a.specialization_name like '%Big Data%';
         
-        ![image](https://user-images.githubusercontent.com/114371417/207750504-227fd2e0-18e0-4991-8c59-c4489ae60044.png)
+![image](https://user-images.githubusercontent.com/114371417/207750504-227fd2e0-18e0-4991-8c59-c4489ae60044.png)
 
  
 ### 8. List details about all the Masters programs available in Northeastern University
 
         SELECT * FROM NEU_program;
 
-        ![image](https://user-images.githubusercontent.com/114371417/207750541-f835e862-ec58-4c3b-aba8-2794d9b2c881.png)
+![image](https://user-images.githubusercontent.com/114371417/207750541-f835e862-ec58-4c3b-aba8-2794d9b2c881.png)
 
 
 ### 9. Which job positions for students in Data Analytics Engineering and list the details related to those positions?
@@ -549,7 +548,7 @@ Run the below Queries for the complete code Execution by following the given ste
         ON a.job_id = b.job_id 
         WHERE b.program_name LIKE '%Data%';
 
-        ![image](https://user-images.githubusercontent.com/114371417/207750579-f3e3945b-bfe5-405b-b2d5-ce6e1e2f2259.png)
+![image](https://user-images.githubusercontent.com/114371417/207750579-f3e3945b-bfe5-405b-b2d5-ce6e1e2f2259.png)
 
 ### 10. List the events hosted by Northeastern University for students by Data Analytics Engineering Department.
 
@@ -557,7 +556,7 @@ Run the below Queries for the complete code Execution by following the given ste
          FROM Neu_Event 
          WHERE program_name = 'Data Analytics Engineering';
          
-         ![image](https://user-images.githubusercontent.com/114371417/207750672-7989581b-6b8c-45be-969a-67731a828d5f.png)
+![image](https://user-images.githubusercontent.com/114371417/207750672-7989581b-6b8c-45be-969a-67731a828d5f.png)
 
  
 ### 11.Which professors teach courses related to User Experience and list the ratings given by students for the course?
@@ -574,7 +573,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON e.faculty_name = d.faculty_name
           WHERE a.specialization_name like '%User%';
      
-          ![image](https://user-images.githubusercontent.com/114371417/207750736-4211434a-9718-4416-a2ba-5d733a149e08.png)
+![image](https://user-images.githubusercontent.com/114371417/207750736-4211434a-9718-4416-a2ba-5d733a149e08.png)
 
  
 ### 12. Find the average course rating for Information Systems Program
@@ -585,7 +584,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON a.course_id = b.course_id
           WHERE a.program_name  ='Information Systems';
 
-          ![image](https://user-images.githubusercontent.com/114371417/207750804-c29da372-b82f-416b-8f99-f48a249e7cbe.png)
+![image](https://user-images.githubusercontent.com/114371417/207750804-c29da372-b82f-416b-8f99-f48a249e7cbe.png)
 
  
 ### 13. List courses with lowest rating.
@@ -596,7 +595,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON a.course_id = b.course_id
           WHERE b.course_rating = (select min(course_rating) from neu_course_resource);
 
-          ![image](https://user-images.githubusercontent.com/114371417/207750845-f093d23c-f092-449e-a875-dc9862cc09d9.png)
+![image](https://user-images.githubusercontent.com/114371417/207750845-f093d23c-f092-449e-a875-dc9862cc09d9.png)
 
 ### 14. Find the professors who taught DAMG 7350, INFO 5100, DAMG 6105, DAMG 7275 courses.
 
@@ -606,7 +605,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON a.faculty_name = b.faculty_name
           where b.course_id IN ('DAMG 7350', 'INFO 5100','DAMG 6105' ,'DAMG 7275');
 
-          ![image](https://user-images.githubusercontent.com/114371417/207750902-1b79fe17-cf71-477c-b96d-f7ff9adac0b9.png)
+![image](https://user-images.githubusercontent.com/114371417/207750902-1b79fe17-cf71-477c-b96d-f7ff9adac0b9.png)
 
 
 ### 15. Which resources are available for students who have chosen Information Systems program?
@@ -619,7 +618,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON b.software_name = c.software_name
           WHERE a.program_name = 'Information Systems';
          
-          ![image](https://user-images.githubusercontent.com/114371417/207750954-2924530f-233e-43fe-b44b-42b3d027878a.png)
+![image](https://user-images.githubusercontent.com/114371417/207750954-2924530f-233e-43fe-b44b-42b3d027878a.png)
           
           
 ## View Creation for Use Cases:
@@ -636,7 +635,7 @@ Run the below Queries for the complete code Execution by following the given ste
           WHERE b.program_name = 'Information Systems'
           GROUP BY a.program_name;
           
-          ![image](https://user-images.githubusercontent.com/114371417/207751188-6a9ee0d4-fbaa-4399-bdeb-3f599d2c3121.png)
+![image](https://user-images.githubusercontent.com/114371417/207751188-6a9ee0d4-fbaa-4399-bdeb-3f599d2c3121.png)
 
 
 ### 2.	Which courses do we need to take to do specialization in User Experience Concentration?
@@ -651,7 +650,7 @@ Run the below Queries for the complete code Execution by following the given ste
            ON b.course_id = c.course_id
            WHERE a.specialization_name = 'User Experience Concentration';
 
-           ![image](https://user-images.githubusercontent.com/114371417/207751354-bcc6cb7c-c015-486c-8d09-44bbbef2c6c5.png)
+![image](https://user-images.githubusercontent.com/114371417/207751354-bcc6cb7c-c015-486c-8d09-44bbbef2c6c5.png)
 
 
 ### 3.	List top rated professors at NEU whose rating is above 4. Also mention the courses and its description taught by the professor.
@@ -665,7 +664,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON b.course_id = c.course_id
           WHERE a.faculty_rating >= 4;
 
-          ![image](https://user-images.githubusercontent.com/114371417/207751414-17bc0e46-65e6-4841-be32-90c834268bc3.png)
+![image](https://user-images.githubusercontent.com/114371417/207751414-17bc0e46-65e6-4841-be32-90c834268bc3.png)
 
 
 
@@ -679,7 +678,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON a.program_name = b.program_name
           GROUP BY a.program_name;
 
-          ![image](https://user-images.githubusercontent.com/114371417/207751456-fb21bec0-f57b-44f5-af79-28e44a9db990.png)
+![image](https://user-images.githubusercontent.com/114371417/207751456-fb21bec0-f57b-44f5-af79-28e44a9db990.png)
 
 
 ### 5.	List courses available for Data Analytics Engineering along with its course_outcome.
@@ -691,7 +690,7 @@ Run the below Queries for the complete code Execution by following the given ste
             NEU_Course_Catalog 
             WHERE program_name = 'Data Analytics Engineering';
 
-           ![image](https://user-images.githubusercontent.com/114371417/207751516-e317ceba-839e-4906-8930-7c4975d8e923.png)
+![image](https://user-images.githubusercontent.com/114371417/207751516-e317ceba-839e-4906-8930-7c4975d8e923.png)
 
 
 ### 6.	What is the average overall rating given by students to a professor for a given course?
@@ -701,9 +700,7 @@ Run the below Queries for the complete code Execution by following the given ste
           FROM neu_Facultys
           GROUP BY faculty_name;
 
-          ![image](https://user-images.githubusercontent.com/114371417/207751560-74f41d6b-91ac-4276-95ea-a3bb3cb8b4e6.png)
-
-
+![image](https://user-images.githubusercontent.com/114371417/207751560-74f41d6b-91ac-4276-95ea-a3bb3cb8b4e6.png)
 
 
 ### 7.	Which courses students need to take to do specialization in Big Data Systems concentration and which resources are available for them?
@@ -721,7 +718,7 @@ Run the below Queries for the complete code Execution by following the given ste
             ON d.software_name = e.software_name
             WHERE a.specialization_name like '%Big Data%';
 
-            ![image](https://user-images.githubusercontent.com/114371417/207751637-e32ba94c-f9fe-4cb6-a7c5-dbc53eda8f74.png)
+![image](https://user-images.githubusercontent.com/114371417/207751637-e32ba94c-f9fe-4cb6-a7c5-dbc53eda8f74.png)
 
 
 ### 8.	Which job positions are available for students in Data Analytics Engineering and list the details related to those positions?  
@@ -733,7 +730,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON a.job_id = b.job_id 
           WHERE b.program_name LIKE '%Data%';
 
-          ![image](https://user-images.githubusercontent.com/114371417/207751684-9f6798d2-5e45-486d-b14d-26486b8066fd.png)
+![image](https://user-images.githubusercontent.com/114371417/207751684-9f6798d2-5e45-486d-b14d-26486b8066fd.png)
 
 
 ### 9.	Which professors teach courses related to User Experience and list the ratings given by students for the course?
@@ -751,11 +748,11 @@ Run the below Queries for the complete code Execution by following the given ste
             ON e.faculty_name = d.faculty_name
             WHERE a.specialization_name like '%User%';
 
-            ![image](https://user-images.githubusercontent.com/114371417/207751739-0e3545b1-394c-40b3-bf9e-6c85adab9858.png)
+![image](https://user-images.githubusercontent.com/114371417/207751739-0e3545b1-394c-40b3-bf9e-6c85adab9858.png)
 
 
 
-### 10.	Find the average course rating for Information Systems Program
+### 10. Find the average course rating for Information Systems Program
 
             CREATE VIEW Information_System_Avg_Course_rating AS
             SELECT a.program_name, AVG(b.course_rating)
@@ -764,10 +761,10 @@ Run the below Queries for the complete code Execution by following the given ste
          	  ON a.course_id = b.course_id
          	  WHERE a.program_name  ='Information Systems';
 
-            ![image](https://user-images.githubusercontent.com/114371417/207751806-fd73d768-00c4-4ebf-a557-d8d8830667af.png)
+![image](https://user-images.githubusercontent.com/114371417/207751806-fd73d768-00c4-4ebf-a557-d8d8830667af.png)
 
 
-### 11.	List courses with lowest rating.
+### 11. List courses with lowest rating.
       
       	  CREATE VIEW Lowest_Rating_Courses As
         	SELECT a.course_id, a.course_name,a.course_description,b.course_rating
@@ -776,11 +773,11 @@ Run the below Queries for the complete code Execution by following the given ste
         	ON a.course_id = b.course_id
         	WHERE b.course_rating = (select min(course_rating) from neu_course_resource);
 
-          ![image](https://user-images.githubusercontent.com/114371417/207751872-f0854c8f-186a-4cc9-a4a0-3abb4c570762.png)
+![image](https://user-images.githubusercontent.com/114371417/207751872-f0854c8f-186a-4cc9-a4a0-3abb4c570762.png)
                      
          
 
-### 12.	Find the professors who taught DAMG 7350, INFO 5100, DAMG 6105, DAMG 7275   courses.
+### 12. Find the professors who taught DAMG 7350, INFO 5100, DAMG 6105, DAMG 7275   courses.
 
            CREATE VIEW Professor_DAMG7350_INFO5100_DAMG6105_DAMG7275 AS
            select a.faculty_name, b.course_id 
@@ -793,7 +790,7 @@ Run the below Queries for the complete code Execution by following the given ste
 
 
 
-### 13.	Which resources are available for students who have chosen Information Systems program?
+### 13. Which resources are available for students who have chosen Information Systems program?
 
           CREATE VIEW Information_Systems_Resource_Details AS
           SELECT a.program_name,a.course_id,b.software_name,
@@ -805,7 +802,7 @@ Run the below Queries for the complete code Execution by following the given ste
           ON b.software_name = c.software_name
           WHERE a.program_name = 'Information Systems';
           
-          ![image](https://user-images.githubusercontent.com/114371417/207751986-e137d5f8-28b7-4517-889a-cb0473a4d586.png)
+![image](https://user-images.githubusercontent.com/114371417/207751986-e137d5f8-28b7-4517-889a-cb0473a4d586.png)
 
 
 ## Conclusion
