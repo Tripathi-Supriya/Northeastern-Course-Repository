@@ -32,7 +32,7 @@ We have shortlisted 3 graduate degree programs offered by Northeastern Universit
 
 ## Implementation
 
-### Phase 1: Twitter 
+## Phase 1: Twitter 
 
 We started with thorough research and collection of existing data pertaining to this project. We sought various sources of data and verified the existing ones. To begin with, we laid out the use cases which we were seeking answers for. As the next steps, we spoke to a bunch of students at Northeastern University to gather information and factor in their points of view. 
 
