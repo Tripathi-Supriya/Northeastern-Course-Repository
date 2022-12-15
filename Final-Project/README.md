@@ -28,7 +28,7 @@ We have shortlisted 3 graduate degree programs offered by Northeastern Universit
 
 ## Implementation
 
-## Phase 1: Twitter 
+### Phase 1: Twitter 
 
 We started with thorough research and collection of existing data pertaining to this project. We sought various sources of data and verified the existing ones. To begin with, we laid out the use cases which we were seeking answers for. As the next steps, we spoke to a bunch of students at Northeastern University to gather information and factor in their points of view. 
 
@@ -45,7 +45,7 @@ The performed the following steps for above analysis:
 https://github.com/Tripathi-Supriya/Northeastern-Course-Repository/tree/main/Twitter%20Bot
 
 
-## Phase 2: Gathering data from multiple resources
+### Phase 2: Gathering data from multiple resources
 
 After collecting data from twitter, we condenseed our search to three main sources for data collection, described as follows: 
 
@@ -68,21 +68,21 @@ We have collated all the above data sources to create a database and established
 #### Please visit the following link to get a detailed view of Phase 2
 https://github.com/Tripathi-Supriya/Northeastern-Course-Repository/tree/main/Assignment_3_WebScrape
 
-## Phase 3: Normalization
+### Phase 3: Normalization
 
 The data collected in Phase 2 was sufficient but it was not in standard format. Phase 3 of this project involved normalizing this data. We studied all the tables obtained in the second phase extensively and realised that some tables were violating the some normal forms viz. 1NF, 2NF, and 3NF. We have documeneted all these changes in a separate detailed folder. 
 
 #### Please visit the following link to get a detailed view Normalization conducted in Phase 3
 https://github.com/Tripathi-Supriya/Northeastern-Course-Repository/tree/main/Assignment_4
 
-## Phase 4: Final Project
+### Phase 4: Final Project
 
 Here's a brief overview of the dataset obtained after the final phase
 
-### Newly Created Table for Normalization:
+#### Newly Created Table for Normalization:
 
 
-## UseCases 
+### UseCases 
 
 ## Conclusion
 
